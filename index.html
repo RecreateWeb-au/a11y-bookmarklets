@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>A11y-bookmarklets by Recreate Web</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Accessibility Bookmarklets</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/RecreateWeb-au/a11y-bookmarklets">View the Project on GitHub <strong>RecreateWeb-au/a11y-bookmarklets</strong></a></p>
+      </header>
+      <section>
+        <ul>
+        <li><a href="javascript:(function(){var newcss='html:not([lang]):before{display:inline-block!important;background:#dc143c!important;padding:.25em!important;font-family:\'comic sans ms\',cursive!important;color:#fff!important;font-size:14px!important;text-shadow:none!important;font-weight:400!important;font-style:normal!important;content:\'ERROR: HTML element requires lang attribute\'!important}';var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']=newcss})();">Language Checker Bookmarklet</a></li>
+        <li><a href="javascript:(function(){var newcss=':focus{outline:#dc143c; background-color:#dc143c !important; display:block; z-index:999999999; outline: solid 3px #dc143c !important; color:white !important}';var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']=newcss})();">Visual Focus Bookmarklet</a></li>
+        </ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="http://www.recreateweb.com.au">Recreate Web</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
