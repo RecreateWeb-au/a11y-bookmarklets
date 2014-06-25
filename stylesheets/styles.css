@@ -6,22 +6,22 @@
 
 @font-face {
     font-family: 'Brauer';
-    src: url('fonts/brauer2-webfont.eot');
-    src: url('fonts/brauer2-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/brauer2-webfont.woff') format('woff'),
-         url('fonts/brauer2-webfont.ttf') format('truetype'),
-         url('fonts/brauer2-webfont.svg#BrauerRegular') format('svg');
+    src: url('../fonts/brauer2-webfont.eot');
+    src: url('../fonts/brauer2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brauer2-webfont.woff') format('woff'),
+         url('../fonts/brauer2-webfont.ttf') format('truetype'),
+         url('../fonts/brauer2-webfont.svg#BrauerRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Brauer';
-    src: url('fonts/brauerbold-webfont.eot');
-    src: url('fonts/brauerbold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/brauerbold-webfont.woff') format('woff'),
-         url('fonts/brauerbold-webfont.ttf') format('truetype'),
-         url('fonts/brauerbold-webfont.svg#BrauerBoldBold') format('svg');
+    src: url('../fonts/brauerbold-webfont.eot');
+    src: url('../fonts/brauerbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brauerbold-webfont.woff') format('woff'),
+         url('../fonts/brauerbold-webfont.ttf') format('truetype'),
+         url('../fonts/brauerbold-webfont.svg#BrauerBoldBold') format('svg');
     font-weight: bold;
 
 }
