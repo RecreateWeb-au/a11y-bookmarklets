@@ -1,0 +1,25 @@
+From f3bd2870e21bdfdca46ea6d47e4679093b7d4489 Mon Sep 17 00:00:00 2001
+From: ademcifci <ademciftcioglu@gmail.com>
+Date: Wed, 25 Jun 2014 15:52:55 +1000
+Subject: [PATCH] Update index.html
+
+---
+ index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/index.html b/index.html
+index c502ace..b941a42 100644
+--- a/index.html
++++ b/index.html
+@@ -23,7 +23,7 @@
+       <section>
+         <ul>
+         <li><a href="javascript:(function(){var newcss='html:not([lang]):before{display:inline-block!important;background:#dc143c!important;padding:.25em!important;font-family:\'comic sans ms\',cursive!important;color:#fff!important;font-size:14px!important;text-shadow:none!important;font-weight:400!important;font-style:normal!important;content:\'ERROR: HTML element requires lang attribute\'!important}';var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']=newcss})();">Language Checker Bookmarklet</a></li>
+-        <li><a href="javascript:(function(){var newcss=':focus{outline:#dc143c; background-color:#dc143c !important; display:block; z-index:999999999; outline: solid 3px #dc143c !important; color:#dc143c !important}';var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']=newcss})();">Visual Focus Bookmarklet</a></li>
++        <li><a href="javascript:(function(){var newcss=':focus{outline:#dc143c; background-color:#dc143c !important; display:block; z-index:999999999; outline: solid 3px #dc143c !important; color:white !important}';var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']=newcss})();">Visual Focus Bookmarklet</a></li>
+         </ul>
+       </section>
+       <footer>
+-- 
+1.8.3.msysgit.0
+

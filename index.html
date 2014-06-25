@@ -1,37 +1,169 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>A11y-bookmarklets by Recreate Web</title>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU" xml:lang="en-AU">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Recreate Web on github</title>
+<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="stylesheets/styles.css?002" media="screen" />
+<link rel="stylesheet" type="text/css" href="stylesheets/mobile-styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="stylesheets/responsive-nav.css" media="all" />
+<link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Accessibility Bookmarklets</h1>
-        <p></p>
+<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="stylesheets/ie6.css" media="screen" /><![endif]-->
 
-        <p class="view"><a href="https://github.com/RecreateWeb-au/a11y-bookmarklets">View the Project on GitHub <strong>RecreateWeb-au/a11y-bookmarklets</strong></a></p>
-      </header>
-      <section>
-        <ul>
+<!-- Scripts -->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.11.1.min.js'></script>
+<script type='text/javascript' src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<link rel="author" href="https://plus.google.com/u/0/100495416591179618308" />
+<script type="text/javascript" src="js/jquery_relPopup.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/responsive-nav.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body id="twoCol" class="page page-id-23 page-template page-template-page-2col-php">
+<header role="banner">
+<div class="black">
+	<div class="container clearfix">
+	<nav id="header-navigation" role="navigation">
+		<ul>
+			<li><a href="#content" accesskey="c">Skip to Content</a></li>
+			<li><a href="#navigation" accesskey="n">Skip to Nav</a></li>
+			<li><a href="#footer" accesskey="f">Skip to Footer</a></li>
+		</ul>
+	</nav>
+							<div class="textwidget">				<div class="social-media-navigation" role="navigation">
+					<p>Connect with us</p>
+					<ul>
+						<li><a href="https://twitter.com/recreateweb"><img src="http://www.recreateweb.com.au/wp-content/themes/recreateWeb/images/icon-twitter.png" alt="Twitter" /></a></li>
+<li><a href="http://www.linkedin.com/company/2876054"><img src="http://www.recreateweb.com.au/wp-content/themes/recreateWeb/images/icon-linkedin.png" alt="Linked in" /></a></li>
+<li><a href="https://plus.google.com/110647648651777168277" rel="publisher"><img src="http://www.recreateweb.com.au/wp-content/themes/recreateWeb/images/icon-gplus.png" alt="" /><span class="visually-hidden">Google+</span></a></li>
+					</ul>
+				</div>
+
+</div>
+					</div>
+</div>
+			<div class="container">
+			<nav id="navigation" role="navigation">
+				<div class="toggle-wrapper">
+					<button id="toggle" aria-hidden="true" aria-expanded="false" class="closed">Menu</button>
+				</div>
+				<div id="main-nav" class="main-nav">
+				<ul>
+					<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page first menu-item-41"><a href="http://www.recreateweb.com.au/">Home</a></li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-23 current_page_item menu-item-42"><a href="http://www.recreateweb.com.au/about/">About us</a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://www.recreateweb.com.au/work/">Our Work</a></li>
+<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://www.recreateweb.com.au/contact/">Contact us</a></li>
+<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page last menu-item-44"><a href="http://www.recreateweb.com.au/blog/">Blog</a></li>
+				</ul>
+				</div>
+			</nav>
+		<div id="logo">
+				<a href="http://www.recreateweb.com.au">Recreate<span>Web</span></a>
+				<p class="tagline">Accessibility is what we do.</p>
+		</div>
+	</div>
+</header>
+<div id="content">
+
+			<div class="container clearfix">
+
+				<main id="main" role="main">
+								<h1>Accessibility Bookmarklets</h1>
+											<article>
+											        <ul>
         <li><a href="javascript:(function(){var newcss='html:not([lang]):before{display:inline-block!important;background:#dc143c!important;padding:.25em!important;font-family:\'comic sans ms\',cursive!important;color:#fff!important;font-size:14px!important;text-shadow:none!important;font-weight:400!important;font-style:normal!important;content:\'ERROR: HTML element requires lang attribute\'!important}';var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']=newcss})();">Language Checker Bookmarklet</a></li>
         <li><a href="javascript:(function(){var newcss=':focus{outline:#dc143c; background-color:#dc143c !important; display:block; z-index:999999999; outline: solid 3px #dc143c !important; color:white !important}';var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']=newcss})();">Visual Focus Bookmarklet</a></li>
         </ul>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="http://www.recreateweb.com.au">Recreate Web</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+											</article>
+									</main>
+		</div>
+</div>
+
+
+<!--Start Footer -->
+<footer id="footer" role="contentinfo">
+<div class="container">
+<section id="advanced-recent-posts-3" class="widget column-one-third advanced_recent_posts_widget"><div class="content"><h2>from the blog</h2><ul>
+
+			<li class="recent-post-item">
+
+				<a  href="http://www.recreateweb.com.au/accessibility/the-brief-and-the-review-secrets-to-accessibility-success/" rel="bookmark" title="Permanent link to The brief and the review: secrets to accessibility success" class="post-title">The brief and the review: secrets to accessibility success</a>
+
+					
+				<p class="post-date">13 Apr 2013</p>
+
+				                
+
+				
+			</li>
+
+		
+			<li class="recent-post-item">
+
+				<a  href="http://www.recreateweb.com.au/accessibility/global-accessibility-awareness-day-2013/" rel="bookmark" title="Permanent link to Global Accessibility Awareness Day 2013" class="post-title">Global Accessibility Awareness Day 2013</a>
+
+					
+				<p class="post-date">8 May 2013</p>
+
+				                
+
+				
+			</li>
+
+		
+			<li class="recent-post-item">
+
+				<a  href="http://www.recreateweb.com.au/web-development/respond-2014-what-responsive-web-design-can-learn-from-accessibility-best-practice/" rel="bookmark" title="Permanent link to What responsive web design can learn from accessibility best practice" class="post-title">What responsive web design can learn from accessibility best practice</a>
+
+					
+				<p class="post-date">5 Feb 2014</p>
+
+				                
+
+				
+			</li>
+
+		</ul>
+</div></section><section id="text-3" class="widget column-one-third widget_text"><div class="content"><h2>get in touch</h2>			<div class="textwidget"><p>Contact us using the details below. We aim to reply within 24 hours.</p>
+<p><strong>Email</strong> contact@recreateweb.com.au<br />
+<a href="http://www.recreateweb.com.au/contact/" class="call-to-action">Contact us</a></p>
+					</div>
+		</div></section></div>
+
+
+		<div class="black">
+			<div class="container">
+						<section id="text-5" class="widget widget_text">			<div class="textwidget">				<div id="copyright" class="column-two-thirds">
+					<div class="content">
+						<p>Copyright 2012  Recreate Web | <a href="http://www.recreateweb.com.au/sitemap.xml">View Sitemap</a></p>
+					</div>
+				</div>
+</div>
+		</section>						</div>
+		</div>
+</footer>
+<script type="text/javascript">
+	var navigation = responsiveNav("#main-nav", {
+	customToggle: "#toggle",
+	open: function () {
+		var toggle = document.getElementById("toggle");
+		toggle.className = toggle.className.replace(/(^|\s)closed(\s|$)/, "opened");
+		jQuery("#toggle").attr("aria-expanded", true);
+	},
+	close: function () {
+		var toggle = document.getElementById("toggle");
+		toggle.className = toggle.className.replace(/(^|\s)opened(\s|$)/, "closed");
+		jQuery("#toggle").attr("aria-expanded", false);
+	}
+});
+</script>
+</body>
 </html>
