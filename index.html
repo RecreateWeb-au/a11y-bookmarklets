@@ -58,7 +58,7 @@
 				<div id="main-nav" class="main-nav">
 				<ul>
 					<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page first menu-item-41"><a href="http://www.recreateweb.com.au/">Home</a></li>
-<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-23 current_page_item menu-item-42"><a href="http://www.recreateweb.com.au/about/">About us</a></li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-23 menu-item-42"><a href="http://www.recreateweb.com.au/about/">About us</a></li>
 <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://www.recreateweb.com.au/work/">Our Work</a></li>
 <li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://www.recreateweb.com.au/contact/">Contact us</a></li>
 <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page last menu-item-44"><a href="http://www.recreateweb.com.au/blog/">Blog</a></li>
@@ -78,12 +78,23 @@
 				<main id="main" role="main">
 								<h1>Accessibility Bookmarklets</h1>
 											<article>
-											        <ul>
+											<p>Use the bookmarklets below to help with Accessibility testing</p>
+											        <ul class="list">
         <li><a href="javascript:(function(){var newcss='html:not([lang]):before{display:inline-block!important;background:#dc143c!important;padding:.25em!important;font-family:\'comic sans ms\',cursive!important;color:#fff!important;font-size:14px!important;text-shadow:none!important;font-weight:400!important;font-style:normal!important;content:\'ERROR: HTML element requires lang attribute\'!important}';var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']=newcss})();">Language Checker Bookmarklet</a></li>
         <li><a href="javascript:(function(){var newcss=':focus{outline:#dc143c; background-color:#dc143c !important; display:block; z-index:999999999; outline: solid 3px #dc143c !important; color:white !important}';var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']=newcss})();">Visual Focus Bookmarklet</a></li>
         </ul>
 											</article>
 									</main>
+									<aside class="sidebar" id="rightSidebar">
+									<h2>About Recreate Web</h2>
+					<p>Recreate Web is an independent accessibility consultancy based in Melbourne. Our mission is to help make the web accessible to all.</p>
+
+<p>To us, accessibility means providing access to the web (and technology) that's universal, equal and barrier free. That means access for all users, regardless of ability, disability, browsing device or location.</p>
+
+<p>We're specialists in accessible development, design and strategy, and focus on inclusion and equal access to digital technology.</p>
+
+<p>Although we're not a traditional web development company, we still offer end-to-end accessible design development solutions. </p>
+				</aside>
 		</div>
 </div>
 
